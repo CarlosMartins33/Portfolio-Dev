@@ -1,0 +1,81 @@
+nav {
+  background: url(/assets/Background_Intro.png) no-repeat;
+  background-size: cover;
+}
+
+#intro-profile {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+#profile {
+  margin-top: 120px;
+  display: flex;
+  align-items: end;
+}
+
+.foto {
+  border: 3px solid var(--red);
+  border-radius: 1500px;
+}
+
+#info-descricao {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info-descricao p {
+  margin-bottom: 8px;
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+
+#info-descricao p span {
+  color: var(--red);
+}
+
+#info-descricao h1 {
+  margin-bottom: 20px;
+  color: var(--gray-600);
+  font: var(--title-lg);
+}
+
+#descricao {
+  color: var(--gray-400);
+  font: var(--title-sm-mv);
+}
+
+.icon-code {
+  color: var(--green);
+}
+
+#info-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font: var(--title-md-mv);
+  margin-top: 80px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-300);
+  gap: 8px;
+  padding: 10px 15px;
+  border-radius: 100px;
+}
+
+li p {
+  color: var(--gray-500);
+}
+
+#seta {
+  display: flex;
+  justify-content: center;
+  margin-top: 95px;
+}

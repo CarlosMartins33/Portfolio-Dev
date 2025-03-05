@@ -32,6 +32,6 @@
 
   /* Font maven*/
   --font-family-maven: "Maven Pro", sans-serif;
-  --title-md: 400 16px/140% var(--font-family-maven);
-  --title-sm: 400 14px/140% var(--font-family-maven);
+  --title-md-mv: 400 16px/140% var(--font-family-maven);
+  --title-sm-mv: 400 14px/140% var(--font-family-maven);
 }

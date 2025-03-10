@@ -35,3 +35,7 @@
   --title-md-mv: 400 16px/140% var(--font-family-maven);
   --title-sm-mv: 400 14px/140% var(--font-family-maven);
 }
+
+body {
+  background: var(--gray-200);
+}

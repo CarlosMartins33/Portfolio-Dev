@@ -2,6 +2,10 @@ main {
   margin-top: 76px;
 }
 
+#projetos {
+  margin-bottom: 150px;
+}
+
 #projetos .sub-titulo {
   color: var(--red);
   text-align: center;

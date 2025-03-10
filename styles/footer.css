@@ -1,0 +1,61 @@
+footer {
+  background: url(/assets/Background_Contacts.png) no-repeat;
+  background-size: cover;
+}
+
+.sub-titulo-footer {
+  font: var(--subtitle);
+  color: var(--purple);
+  text-align: center;
+  margin-top: 128px;
+  padding-bottom: 8px;
+}
+
+#rodape h3 {
+  color: var(--gray-600);
+  font: var(--title-md);
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.sub-titulo-footer-1 {
+  color: var(--gray-500);
+  font: var(--title-md-mv);
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  place-content: center;
+  gap: 16px;
+  margin-bottom: 250px;
+}
+
+.link-linkedin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 70px;
+}
+
+.link-linkedin a {
+  text-decoration: none;
+  font: var(--title-md-mv);
+  color: var(--gray-500);
+  border-radius: 8px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.footerzinho {
+  text-align: center;
+  padding-bottom: 20px;
+  color: var(--gray-600);
+  font: var(--title-md-mv);
+}

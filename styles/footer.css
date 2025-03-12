@@ -1,5 +1,9 @@
 footer {
+<<<<<<< HEAD
   background: url(assets/Background_Contacts.png) no-repeat;
+=======
+  background: url(./assets/Background_Contacts.png) no-repeat;
+>>>>>>> f7fff0b911bcc046560d72f2e94b506cd12290db
   background-size: cover;
 }
 
